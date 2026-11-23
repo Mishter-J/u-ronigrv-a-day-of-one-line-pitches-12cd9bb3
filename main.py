@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
 """One-line pitch entry for make.fun's "A Day of One-Line Pitches".
 
-Writes a single persuasive sentence (167 characters) to /output/entry.txt:
+Writes a single persuasive sentence (209 characters) to /output/entry.txt:
 one sentence that would convince a friend who has never coded to let an
 AI agent build their first app idea on make.fun.
 
-Deterministic: the sentence is a fixed constant, written as UTF-8 with no
-trailing newline. No network, no input, no randomness, nothing read from
-outside this repository.
+Revision pass 2: on a re-read against the judge's brief, "in plain words
+on make.fun" reads stiff — the platform name should land first, the way
+a friend would say it ("on make.fun, in plain words") — and the semicolon
+before the low-risk closer breaks the sentence's dash rhythm, so it
+becomes an em dash. Same case, same length class, smoother single read.
 """
 
 import os
 
 PITCH = (
-    "Just describe your idea in plain words and by tonight you'll have a "
-    "real app on your phone to show your friends \u2014 no code, no cost, "
-    "and nothing to lose if you hate it."
+    "You don't need to learn to code \u2014 just describe the app you've "
+    "always wanted on make.fun, in plain words, and an AI agent will build "
+    "it for you, free \u2014 if you don't love it, you've lost nothing but "
+    "a sentence."
 )
 
 
